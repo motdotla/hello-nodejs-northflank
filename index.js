@@ -1,5 +1,5 @@
 // index.js
-const PORT = process.env.PORT || 3000
+const PORT = process.env.PORT || 80
 const http = require('http')
 const server = http.createServer((req, res) => {
   res.statusCode = 200
